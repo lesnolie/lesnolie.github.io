@@ -1,13 +1,19 @@
 ---
 layout: post
-title: You're up and running!
+title: 2021.03.29
 tags:
   - test
   - tags
 ---
 
-Next you can update your site name, avatar and other options using the _config.yml file in the root of your repository (shown below).
+终于搞好了。
 
-![_config.yml]({{ site.baseurl }}/images/config.png)
+最大的经验就是放弃各种花里胡哨有错误的模板 ，
 
-The easiest way to make your first post is to edit this one. Go into /_posts/ and update the Hello World markdown file. For more instructions head over to the [Kiko Now repository](https://github.com/aweekj/kiko-now) on GitHub.
+选择最容易省事儿的。
+
+于是就有了这个博客。
+
+静态博客+静态wiki
+
+vps就当作网盘吧。
