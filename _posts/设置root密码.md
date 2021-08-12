@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "解锁网易云音乐灰色歌单"
+title: "谷歌云设置root密码及开启ssh权限"
 tags: [网易云,netease]
 comments: true
 ---
