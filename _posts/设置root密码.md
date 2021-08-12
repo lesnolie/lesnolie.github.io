@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "谷歌云设置root密码及开启ssh权限"
-tags: [网易云,netease]
+tags: [GCP,VPS,GOOGLE]
 comments: true
 ---
 
