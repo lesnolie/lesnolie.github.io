@@ -1,3 +1,10 @@
+---
+layout: post
+title: "解锁网易云音乐灰色歌单"
+tags: [网易云,netease]
+comments: true
+---
+
 ##  设置root密码
 
 ### 1.先选择从浏览器打开ssh连接服务器
