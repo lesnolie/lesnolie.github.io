@@ -9,12 +9,12 @@ layout: default
 <div class="posts">
   {% for post in paginator.posts %}
     <article class="post">
-      <h1 align="center">
+      <h1>
         <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
       </h1>
 
       <div>
-        <align="center" span class="date">
+        <span class="date" align="center">
           {{ post.date | date: "%Y-%m-%d" }}
         </span>
 
