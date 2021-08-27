@@ -458,6 +458,7 @@ nav {
   font-weight: 300;
   padding: 2em 0;
   width: 100%;
+  margin: 0 4px;
   display: inline-block;
 
   @include mobile {
@@ -465,7 +466,7 @@ nav {
   }
 
   > .prev {
-    float: none
+    float: none;
     width: 50%;
     a {
       color: $pagination-color;
@@ -476,7 +477,7 @@ nav {
   }
 
   > .next {
-    float: none
+    float: none;
     width: 50%;
     a {
       color: $pagination-color;
