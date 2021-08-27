@@ -465,6 +465,7 @@ nav {
   }
 
   > .prev {
+    float: none
     width: 50%;
     a {
       color: $pagination-color;
@@ -475,6 +476,7 @@ nav {
   }
 
   > .next {
+    float: none
     width: 50%;
     a {
       color: $pagination-color;
