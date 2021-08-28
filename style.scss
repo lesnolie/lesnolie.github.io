@@ -325,7 +325,8 @@ img {
 }
 
 .site-name {
-  display:flex;
+  text-align: center;  
+  display: inline-block;
   color: $darkGray;
   cursor: pointer;
   font-family: $helveticaNeue;
@@ -335,7 +336,8 @@ img {
 }
 
 .site-description {
-  display:flex;
+  text-align: center;  
+  display: inline-block;
   color: $gray;
   font-size: 16px;
 
@@ -356,7 +358,8 @@ img {
   }
 
   img {
-    display:flex;  
+    text-align: center;  
+    display: inline-block; 
     border-radius: 10px;
   }
 }
