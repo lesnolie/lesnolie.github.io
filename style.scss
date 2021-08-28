@@ -325,7 +325,7 @@ img {
 }
 
 .site-name {
-  display:flex
+  display:flex;
   color: $darkGray;
   cursor: pointer;
   font-family: $helveticaNeue;
@@ -335,7 +335,7 @@ img {
 }
 
 .site-description {
-  display:flex
+  display:flex;
   color: $gray;
   font-size: 16px;
 
@@ -356,7 +356,7 @@ img {
   }
 
   img {
-    display:flex    
+    display:flex;  
     border-radius: 10px;
   }
 }
