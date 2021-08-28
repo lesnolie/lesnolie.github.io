@@ -1,6 +1,6 @@
 <head>
-  <title text-align:center>{{ site.name }} – {{ site.description }}
-  {% if page.title %}{{ page.title }} – {% endif %}</title>
+  <title> {% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}
+ </title>
 
   {% include meta.html %}
   {% include fonts.html %}
