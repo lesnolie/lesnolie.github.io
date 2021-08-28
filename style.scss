@@ -325,7 +325,7 @@ img {
 }
 
 .site-name {
-  text-align:center;
+  align:center;
   margin: 0;
   color: $darkGray;
   cursor: pointer;
@@ -336,7 +336,7 @@ img {
 }
 
 .site-description {
-  text-align:center;
+  align:center;
   margin: -5px 0 0 0;
   color: $gray;
   font-size: 16px;
@@ -364,7 +364,7 @@ img {
 }
 
 .site-info {
-  float: left;
+  float: none;
 
   @include mobile {
     float: none;
