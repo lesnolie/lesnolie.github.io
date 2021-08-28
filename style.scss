@@ -324,9 +324,18 @@ img {
   }
 }
 
+.site-info {
+  float: none;
+
+  @include mobile {
+    float: none;
+    display: block;
+    margin: 0 auto;
+  }
+}
+
 .site-name {
   text-align: center;  
-  display: inline-block;
   color: $darkGray;
   cursor: pointer;
   font-family: $helveticaNeue;
@@ -337,7 +346,6 @@ img {
 
 .site-description {
   text-align: center;  
-  display: inline-block;
   color: $gray;
   font-size: 16px;
 
@@ -350,7 +358,6 @@ img {
   width: 70px;
   height: 70px;
   text-align: center;  
-  display: inline-block; 
 
   @include mobile {
     float: none;
@@ -363,15 +370,6 @@ img {
   }
 }
 
-.site-info {
-  float: none;
-
-  @include mobile {
-    float: none;
-    display: block;
-    margin: 0 auto;
-  }
-}
 
 nav {
   float: right;
@@ -467,8 +465,6 @@ nav {
   }
 
   > .prev {
-    float: left;
-    width: 50%;
     a {
       color: $pagination-color;
       &:hover, &:focus {
@@ -478,8 +474,6 @@ nav {
   }
 
   > .next {
-    float: right;
-    width: 50%;
     a {
       color: $pagination-color;
       &:hover, &:focus {
